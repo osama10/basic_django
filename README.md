@@ -1,5 +1,5 @@
 # Getting started with Django
-A basic Django project for getting my hand dirty on it's various concepts
+I have created a small blogs app for getting my hands dirty on Django's various concepts
 The concepts that I practised in this projects are 
 
 - Models
