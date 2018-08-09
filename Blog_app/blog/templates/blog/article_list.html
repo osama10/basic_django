@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Article Lists</title>
+</head>
+<body>
+{% for article in article_list %}
+    <p>{{ article.id }} -- <a href = "{% url 'blog:article_detail' article.id %}">  {{ article.title }}</a></p>
+{% endfor %}
+</body>
+</html>
